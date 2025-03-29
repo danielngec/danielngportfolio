@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.left-cv {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+.right-cv {
+  background-color: white;
+  color: black;
+  padding: 2%;
+}
+
+.container-top {
+  margin: 0 10%;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.ulteste {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ulteste li {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  margin-right: 50px;
+  padding-bottom: 3%;
+}
+
+.iconli {
+  font-size: 70px;
+}
+
+.container-b {
+  background-color: black;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.container-b1 {
+  background-color: black;
+  margin: 0;
+  height: 100vh;
+  color: white;
+}
+
+.container-w {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+}
+
+.left-cv a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-project {
+  display: flex; /* Garante que a div se ajuste ao tamanho do conteúdo */
+  font-size: 3.5vw; /* Ajuste conforme necessário */
+  height: auto; /* Garante que a altura seja definida pelo texto */
+  align-self: flex-start; /* Evita que o Bootstrap expanda o elemento */
+  padding: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-w .col-6 {
+  word-wrap: break-word; /* Quebra palavras longas */
+  overflow-wrap: break-word; /* Alternativa moderna */
+  white-space: normal; /* Garante que o texto quebre a linha */
+  max-width: 100%; /* Limita o tamanho ao máximo permitido */
+  overflow: hidden; /* Esconde qualquer coisa que ultrapasse */
+  padding: 2%;
+}
+
+.container-w a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.paddingpx {
+  padding-left: 20%;
+}
