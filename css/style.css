@@ -90,7 +90,7 @@ p {
 
 .header-project {
   display: flex; /* Garante que a div se ajuste ao tamanho do conteúdo */
-  font-size: 3.5vw; /* Ajuste conforme necessário */
+  font-size: 46px; /* Ajuste conforme necessário */
   height: auto; /* Garante que a altura seja definida pelo texto */
   align-self: flex-start; /* Evita que o Bootstrap expanda o elemento */
   padding: 2%;
@@ -120,13 +120,13 @@ p {
 .container-w a {
   color: black;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 24px;
 }
 
 .container-b1 a {
   color: white;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 24px;
 }
 .paddingpx {
   padding-left: 20%;
